@@ -20,15 +20,10 @@ from datetime import datetime
 import doctest
 import re
 import warnings
-
-
-
-from dotenv.main import load_dotenv
+from dotenv import load_dotenv
 
 load_dotenv()
 key = os.getenv('API_KEY')
-
-
 
 def get_traffic_inc_info(key, tpe=None, road=None):
     
@@ -123,9 +118,6 @@ Type	Latitude	Longitude	Message
     else: 
         return tpe_search()
 
-get_traffic_inc_info(key, road='CTE')
-
-
 
 def get_bus_info(key, busstopcode):
     """
@@ -218,9 +210,6 @@ Service Number	Bus Estimated Arrival	Bus Density	Bus Accessibility	Bus 2 Estimat
         
         return df5
 
-get_bus_info(key, 64549)
-
-
 
 def get_train_service_alerts(key): 
     
@@ -302,7 +291,7 @@ Normal Train Service. There are no disruptions at the moment.
     else:
         traindisruption()
 
-get_train_service_alerts(key)
+
 
 
 
