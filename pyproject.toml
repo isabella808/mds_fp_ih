@@ -5,6 +5,9 @@ description = "Final project for my MDS class."
 authors = ["Isabella Hee"]
 license = "MIT"
 readme = "README.md"
+documentation = "https://mds-fp-ih.readthedocs.io/"
+homepage = "https://github.com/isabella808/mds_fp_ih"
+repository = "https://github.com/isabella808/mds_fp_ih"
 
 [tool.poetry.dependencies]
 python = "^3.9"

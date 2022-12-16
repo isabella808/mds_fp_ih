@@ -124,7 +124,6 @@ def get_ap():
 
 """Test the get_ap() function. """
 
-get_traffic_inc_info(key)
 
 def test_get_ap():
     expected = 200
@@ -133,7 +132,7 @@ def test_get_ap():
     assert actual == expected
     print('Passed API call test.')
 
-test_get_ap()
+
 
 """Test that get_traffic_inc_info() returns output as desired."""
 
@@ -239,5 +238,4 @@ def test_get_traffic_inc_info():
         assert actual == expected
         print('Output of dataframe is as expected, test is passed.')
 
-test_get_traffic_inc_info()
 
