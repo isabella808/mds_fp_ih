@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mds_fp_ih"
-version = "0.1.0"
+version = "0.1.4"
 description = "Final project for my MDS class."
 authors = ["Isabella Hee"]
 license = "MIT"
@@ -10,7 +10,7 @@ homepage = "https://github.com/isabella808/mds_fp_ih"
 repository = "https://github.com/isabella808/mds_fp_ih"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 pandas = "^1.5.2"
 requests = "^2.28.1"
 python-dotenv = "^0.21.0"
